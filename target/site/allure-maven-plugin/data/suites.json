@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Regression",
+    "children" : [ {
+      "name" : "Exercises",
+      "children" : [ {
+        "name" : "com.valtech.TestCases.Exercises",
+        "children" : [ {
+          "name" : "Exercise 3",
+          "uid" : "465fadb2cad1b47d",
+          "parentUid" : "d8828cc7fbd19bbf3ab34803f47633fd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598009450929,
+            "stop" : 1598009466693,
+            "duration" : 15764
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d8828cc7fbd19bbf3ab34803f47633fd"
+      } ],
+      "uid" : "3e7ea0ef543fa497554cb73e292dd3bb"
+    } ],
+    "uid" : "5ba398ba8a4e16d50ebb84d8f641e8da"
+  } ]
+}

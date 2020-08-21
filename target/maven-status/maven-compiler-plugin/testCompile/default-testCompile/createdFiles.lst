@@ -1,0 +1,14 @@
+com\valtech\Pages\PublicSectorPage.class
+com\valtech\Pages\ContactUsPage.class
+com\valtech\Configuration\ChromeDriverManager.class
+com\valtech\Pages\MenuPage.class
+com\valtech\Util\Retry.class
+com\valtech\TestCases\Exercises.class
+com\valtech\Util\RetryListener.class
+com\valtech\Pages\PartnersPage.class
+com\valtech\Configuration\BaseTest.class
+com\valtech\Util\LoggingEventListener.class
+com\valtech\Configuration\FirefoxDriverManager.class
+com\valtech\Pages\HomePage.class
+com\valtech\Util\CaptureScreenShotOnFailureListener.class
+com\valtech\Configuration\EdgeDriverManager.class

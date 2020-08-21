@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.valtech.TestCases.Exercises",
+    "children" : [ {
+      "name" : "exercise3",
+      "uid" : "465fadb2cad1b47d",
+      "parentUid" : "5391ea27843e04121257b940e1f6d962",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598009450929,
+        "stop" : 1598009466693,
+        "duration" : 15764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.valtech.TestCases.Exercises"
+  } ]
+}

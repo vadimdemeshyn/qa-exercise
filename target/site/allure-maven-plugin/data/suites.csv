@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 21 14:30:50 EEST 2020","Fri Aug 21 14:31:06 EEST 2020","15764","Regression","Exercises","com.valtech.TestCases.Exercises","com.valtech.TestCases.Exercises","exercise3","Exercise 3",""

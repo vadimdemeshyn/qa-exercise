@@ -1,0 +1,1 @@
+{"uuid":"a76121dd-a07c-4a39-bb7a-eda01ff54c4f","name":"qa-exercise","children":["20272383-a2c5-49b8-9ca0-86b8155bfab8"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1597945213478,"stop":1597945213486}],"afters":[],"links":[],"start":1597945213470,"stop":1597945224699}

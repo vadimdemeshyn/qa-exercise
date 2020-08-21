@@ -44,3 +44,20 @@ Bonus point: Test execution on Docker instances
 Finish up
 ---------
 Once you're finished, commit & push your changes, send us a link to your fork.
+
+INSTRUCTIONS
+---------
+
+Needed to be installed:
+ - JDK 1.8+
+ - Docker
+ 
+ HOW TO RUN: 
+  
+**_`Proceed to project home directory, run:`_**
+docker-compose up -d (check 3 containers are UP - run 'docker ps' to check)
+mvn clean install -P regression (to run project and generate report)
+
+_`**Check report:**`_
+open in browser target\site\allure-maven-plugin\index.html file
+

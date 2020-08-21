@@ -1,0 +1,50 @@
+#hub:
+#  image: selenium/hub:3.14.0-gallium
+#  ports:
+#    - "4444:4444"
+#  environment:
+#        GRID_BROWSER_TIMEOUT: '380000'
+#        GRID_MAX_SESSION: '6'
+#        GRID_TIMEOUT: '380000'
+#firefox:
+#  image: selenium/node-firefox-debug
+#  ports:
+#    - "5900"
+#  links:
+#    - hub
+#chrome:
+#  image: selenium/node-chrome-debug
+#  ports:
+#    - "5900"
+#  links:
+#    - hub
+
+
+version: '2'
+services:
+  firefox:
+    image: selenium/node-firefox-debug
+    ports:
+      - "5900"
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+
+  chrome:
+    image: selenium/node-chrome-debug
+    ports:
+        - "5900"
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+
+  hub:
+    image: selenium/hub:3.14.0-gallium
+    ports:
+      - "4444:4444"

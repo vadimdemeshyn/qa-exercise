@@ -1,0 +1,110 @@
+{
+  "uid" : "465fadb2cad1b47d",
+  "name" : "Exercise 3",
+  "fullName" : "com.valtech.TestCases.Exercises.exercise3",
+  "historyId" : "6cb73ddb07148159e3a57113ac7920a8",
+  "time" : {
+    "start" : 1598009450929,
+    "stop" : 1598009466693,
+    "duration" : 15764
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initiate",
+    "time" : {
+      "start" : 1598009447505,
+      "stop" : 1598009450792,
+      "duration" : 3287
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e70f78f87dbff6a8",
+      "name" : "Page screenshot",
+      "source" : "e70f78f87dbff6a8.png",
+      "type" : "image/png",
+      "size" : 32595
+    }, {
+      "uid" : "9ffc8670fb61f8c6",
+      "name" : "Session ID",
+      "source" : "9ffc8670fb61f8c6.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598009466699,
+      "stop" : 1598009466699,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.valtech.TestCases.Exercises"
+  }, {
+    "name" : "testClass",
+    "value" : "com.valtech.TestCases.Exercises"
+  }, {
+    "name" : "testMethod",
+    "value" : "exercise3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Exercises"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.valtech.TestCases.Exercises"
+  }, {
+    "name" : "host",
+    "value" : "WIN-4PT72I7HINB"
+  }, {
+    "name" : "thread",
+    "value" : "14312@WIN-4PT72I7HINB.TestNG-tests-1(15)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "465fadb2cad1b47d.json",
+  "parameterValues" : [ ]
+}
