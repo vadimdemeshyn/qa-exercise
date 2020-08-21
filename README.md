@@ -25,16 +25,15 @@ Exercise #1
   
 Exercise #2
 -----------
-Navigate to www.valtech.co.uk HOME PAGE
+Navigate to https://www.valtech.com/en-gb HOME PAGE
 - Assert that the “Partners” section is displaying
 - Click on "Our Partners"button on the Partners page  
 - Capture and Print a list of all the partners across industries in the test report or to the console 
 
 Exercise #3
 -----------
-- a. Navigate to Uk Public sector 
-- b. Verify and print a list of all public sector customers in the test report or to the console 
-- Click on Talk to Us and verify if it navigates to Contact us page 
+- a. Navigate to offices
+- b. Verify and print a list of all offices in the UK  in the test report or to the console 
 
 Exercise #4
 -----------
